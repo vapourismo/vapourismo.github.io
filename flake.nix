@@ -21,6 +21,10 @@
             nil
             nixd
             nixfmt
+            just
+            tailwindcss_4
+            tailwindcss-language-server
+            vscode-langservers-extracted
           ];
         };
 

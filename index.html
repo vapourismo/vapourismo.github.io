@@ -1,55 +1,46 @@
 <!doctype html>
 <html>
-
-<head>
-	<meta charset="utf-8" />
-	<title>Ole Krüger</title>
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Anonymous+Pro" />
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="index.css" />
-</head>
-
-<body class="root">
-	<div class="contents">
-		<div class="section">
-			My name is Ole Krüger.
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Ole Krüger</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<body class="min-h-screen bg-slate-50 text-slate-900 antialiased">
+		<div class="relative min-h-screen overflow-hidden">
+			<div class="absolute inset-0 bg-gradient-to-br from-white via-sky-50 to-fuchsia-50"></div>
+			<div class="absolute left-1/2 top-20 h-64 w-64 -translate-x-1/2 rounded-full bg-cyan-200/30 blur-3xl"></div>
+			<div class="absolute bottom-16 right-16 h-48 w-48 rounded-full bg-pink-200/30 blur-3xl"></div>
+			<main class="relative mx-auto flex min-h-screen w-fit max-w-full items-center px-6 py-16 sm:px-10">
+				<section class="max-w-xl">
+					<h1 class="text-4xl font-semibold tracking-tight text-slate-950">
+						My name is <span class="bg-gradient-to-r from-sky-600 to-fuchsia-600 bg-clip-text text-transparent">Ole Krüger</span>.
+					</h1>
+					<p class="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+						I love solving big problems by typing things into a computer.
+					</p>
+					<div class="mt-10 flex items-center gap-6 text-sm font-medium text-slate-600 justify-end">
+						<a
+							aria-label="GitHub"
+							target="_blank"
+							rel="noreferrer"
+							href="https://github.com/vapourismo"
+							class="transition hover:opacity-70"
+						>
+							<img width="20" height="20" src="github.svg" alt="GitHub" class="h-5 w-5" />
+						</a>
+						<a
+							aria-label="Bluesky"
+							target="_blank"
+							rel="noreferrer"
+							href="https://bsky.app/profile/ole.lol"
+							class="transition hover:opacity-70"
+						>
+							<img width="20" height="20" src="bluesky.svg" alt="Bluesky" class="h-5 w-5" />
+						</a>
+					</div>
+				</section>
+			</main>
 		</div>
-		<div class="seperator"></div>
-		<div class="section">
-			I love static typing, functional programming and solving big problems by typing things into a
-			computer.
-		</div>
-		<div class="seperator"></div>
-		<div class="section">
-			<div class="item">Haskell</div>
-			<div class="item">Rust</div>
-			<div class="item">C++</div>
-			<div class="item">OCaml</div>
-			<div class="item">TypeScript</div>
-			<div class="item">Lua</div>
-			<div class="item">Functional Programming</div>
-			<div class="item">Strong Static Type Systems</div>
-			<div class="item">Systems Programming</div>
-			<div class="item">PostgreSQL</div>
-			<div class="item">Kubernetes</div>
-			<div class="item">ElasticSearch</div>
-			<div class="item">Git</div>
-			<div class="item">Nix</div>
-			<div class="item">Linux</div>
-		</div>
-		<div class="seperator"></div>
-		<div class="links">
-			Find me on
-			<a class="link" title="GitHub" target="blank" href="https://github.com/vapourismo">
-				<i class="fa fa-github" aria-hidden="true"></i>
-			</a>
-		</div>
-	</div>
-	<div class="footer">
-		Copyright &copy; 2018 Ole Krüger
-	</div>
-</body>
-
+	</body>
 </html>
